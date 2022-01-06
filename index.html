@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- link css -->
 
-<link rel="stylesheet" href="css/style.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Random Password Generator</title>
 </head>
+
 <body>
-    
+
     <div class="container">
         <input type="text" id="output">
         <button>
@@ -25,8 +33,9 @@
         <input type="range" id="length" min="8" max="20" value="8" oninput="genPassword()">
         <h3 id="length-val">8</h3>
     </div>
-<!-- link JavaScript -->
+    <!-- link JavaScript -->
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
