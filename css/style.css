@@ -157,3 +157,24 @@ h3{
     border-radius: 3px;
     font-size: 18px;
 }
+
+div.author {
+    position: absolute;
+
+    width: 30%;
+    height: 30px;
+    margin-left: 48%;
+    margin-top: 535px;
+   
+}
+
+.author p {
+    font-family: 'Arial', serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.author a {
+    text-decoration: none;
+    color: #ffffff;
+}
